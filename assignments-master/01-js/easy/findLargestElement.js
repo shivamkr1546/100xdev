@@ -14,5 +14,5 @@ function findLargestElement(numbers) {
     }
     return biggestElement;
 }
-
+// npx jest ./tests/findLargestElement.test.js
 module.exports = findLargestElement;
