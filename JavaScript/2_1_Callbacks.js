@@ -26,5 +26,6 @@ function sumOfSomething(a, b) {
 // square(2) → returns 4 (prints "Square Called")
 // sumOfSomething(1, 4) → returns 5
 
-let ans = sumOfSomething(square(1), square(2));
+let ans = sumOfSomething(square(1), square(2)); // Calls square(1) and square(2), then sums the results
+// It is a Callback because square is called inside sumOfSomething
 console.log(ans); // Output: 5

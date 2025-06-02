@@ -4,10 +4,10 @@ function mathMethods(value) {
   let rounded = Math.round(value);
   console.log("After round():", rounded);
 
-  let ceiling = Math.ceil(value);
+  let ceiling = Math.ceil(value); // Rounds up to the nearest integer
   console.log("After ceil():", ceiling);
 
-  let flooring = Math.floor(value);
+  let flooring = Math.floor(value); // Rounds down to the nearest integer
   console.log("After floor():", flooring);
 
   let randomValue = Math.random();
